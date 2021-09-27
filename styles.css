@@ -1,3 +1,17 @@
-body {
-  background: orange;
+:root {
+  --primary: #1776BF;
+  --header-background-color: var(--primary);
+}
+
+header {
+  --primary: #EA5742;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  left: 0;
+  right: 0;
+  background-color: var(--header-background-color);
 }
